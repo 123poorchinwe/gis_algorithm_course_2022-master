@@ -1,0 +1,23 @@
+#t102-parabolic-motion-container {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  // display: block;
+}
+
+#t102-parabolic-motion-canvas-datgui {
+  position: absolute;
+  margin-top: 5px;
+  right: -10px;
+}
+
+#t102-parabolic-motion-canvas {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  // display: block;
+}

@@ -1,0 +1,139 @@
+<nz-layout class="app-layout">
+  <nz-sider class="menu-sidebar" nzCollapsible nzWidth="256px" nzBreakpoint="md" [(nzCollapsed)]="isCollapsed"
+    [nzTrigger]="null">
+    <div class="sidebar-logo">
+      <div>
+        <img src="/assets/logo/njnu.svg" alt="logo" />
+        <h1>{{ productionName }}</h1>
+      </div>
+    </div>
+    <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="/welcome">Welcome</a>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Hello">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t101-hello-web">t101-hello-web</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t102-hello-canvas">t102-hello-canvas</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t103-hello-mouse">t103-hello-mouse</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t104-hello-file">t104-hello-file</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t105-hello-geojson">t105-hello-geojson</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t106-hello-shapefile">t106-hello-shapefile</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t107-hello-cg">t107-hello-cg</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t108-hello-turf">t108-hello-turf</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t109-hello-openlayers">t109-hello-openlayers</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Data & Mapping">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t201-my-name">t201-my-name</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t202-transform">t202-transform</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t203-map-projection">t203-map-projection</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t204-map-measure">t204-map-measure</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t205-map-symbols">t205-map-symbols</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t206-raster2vector">t206-raster2vector</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t207-vector2raster">t207-vector2raster</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t208-douglas-peuker">t208-douglas-peuker</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t209-smooth">t209-smooth</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t210-topology">t210-topology</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t211-quadtree">t211-quadtree</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t212-rtree">t212-rtree</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Analysis">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t213-idw">t213-idw</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t214-kriging">t214-kriging</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t215-delaunay-voronoi">t215-delaunay-voronoi</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t216-buffer-overlay">t216-buffer-overlay</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t217-terrian-factor">t217-terrian-factor</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t218-terrian-feature">t218-terrian-feature</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t219-grid">t219-grid</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t220-aggregation">t220-aggregation</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t221-classification">t221-classification</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/t222-correlation">t222-correlation</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nz-sider>
+  <nz-layout>
+    <!-- <nz-header>
+      <div class="app-header">
+        <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
+          <i
+            class="trigger"
+            nz-icon
+            [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
+          ></i>
+        </span>
+      </div>
+    </nz-header> -->
+    <nz-content>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+  </nz-layout>
+</nz-layout>

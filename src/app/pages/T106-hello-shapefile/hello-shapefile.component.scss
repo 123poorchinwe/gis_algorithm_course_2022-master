@@ -1,0 +1,51 @@
+.t106-layout {
+  height: 100%;
+}
+
+.t106-header {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+
+.t106-header .logo {
+  width: 300px;
+  height: 64px;
+  float: left;
+}
+
+.t106-header .logo h1 {
+  margin-left: 15px;
+}
+
+.t106-header .menu-list {
+  height: 64px;
+  float: right;
+  margin-right: 20px;
+}
+
+.t106-header .buttons-list {
+  height: 64px;
+  margin-left: 400px;
+}
+
+.t106-header .buttons-list button {
+  margin-right: 5px;
+  // display: inline-block;
+}
+
+.t106-content {
+  padding: 0px;
+  margin: 0px;
+}
+
+.t106-content .inner-content {
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  height: 100%;
+}

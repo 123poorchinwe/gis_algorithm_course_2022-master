@@ -1,0 +1,14 @@
+<div class="t203-geojson-content">
+  <ngx-codemirror [(ngModel)]="code" [options]="{
+    mode:  'application/json',
+    theme: 'eclipse',
+    autofocus: true,
+    matchBrackets: true,
+    tabSize: 2,
+    gutters: ['error'],
+    styleActiveLine: true,
+    lineWrapping: false,
+    lineNumbers: true
+  }" [autoFocus]="true">
+  </ngx-codemirror>
+</div>

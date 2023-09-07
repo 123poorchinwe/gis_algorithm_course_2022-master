@@ -1,0 +1,16 @@
+<div class="t106-attribute-table-content">
+  <nz-table id="t106-attribute-table" #basicTable [nzData]="features.properties" [nzSize]="'small'" [nzBordered]="true"
+    [nzOuterBordered]="true" nzTableLayout="fixed" [nzShowPagination]="false" [nzFrontPagination]="false"
+    [nzScroll]="{ x: scrollWidth + 'px', y: scrollHeight + 'px' }">
+    <thead>
+      <tr>
+        <th *ngFor="let c of features.dictionary" nzEllipsis>{{c}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of basicTable.data" nzEllipsis>
+        <td *ngFor="let c of features.dictionary">{{data[c]}}</td>
+      </tr>
+    </tbody>
+  </nz-table>
+</div>

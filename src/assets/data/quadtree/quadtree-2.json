@@ -1,0 +1,158 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "row": 9732,
+                "column": 13596,
+                "deep": 14,
+                "value": 1
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19464,
+                "column": 27194,
+                "deep": 15,
+                "value": 2
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19464,
+                "column": 27195,
+                "deep": 15,
+                "value": 3
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19465,
+                "column": 27194,
+                "deep": 15,
+                "value": 4
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19465,
+                "column": 27195,
+                "deep": 15,
+                "value": 5
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19466,
+                "column": 27192,
+                "deep": 15,
+                "value": 6
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38932,
+                "column": 54386,
+                "deep": 16,
+                "value": 7
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38932,
+                "column": 54387,
+                "deep": 16,
+                "value": 8
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38933,
+                "column": 54386,
+                "deep": 16,
+                "value": 9
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38933,
+                "column": 54387,
+                "deep": 16,
+                "value": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "row": 19467,
+                "column": 27192,
+                "deep": 15,
+                "value": 11
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19467,
+                "column": 27193,
+                "deep": 15,
+                "value": 12
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19466,
+                "column": 27194,
+                "deep": 15,
+                "value": 13
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19466,
+                "column": 27195,
+                "deep": 15,
+                "value": 14
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38934,
+                "column": 54388,
+                "deep": 16,
+                "value": 15
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38934,
+                "column": 54389,
+                "deep": 16,
+                "value": 16
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38935,
+                "column": 54388,
+                "deep": 16,
+                "value": 17
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38935,
+                "column": 54389,
+                "deep": 16,
+                "value": 18
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 19467,
+                "column": 27195,
+                "deep": 15,
+                "value": 19
+            }
+        }
+    ]
+}

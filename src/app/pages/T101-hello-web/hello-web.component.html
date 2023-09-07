@@ -1,0 +1,22 @@
+<nz-layout class="t101-layout">
+  <nz-header class="t101-header">
+    <div class="logo">
+      <h1>{{title}}</h1>
+    </div>
+    <ul nz-menu nzMode="horizontal">
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="maching">Maching</a>
+      </li>
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="snowflakes">Snowflakes</a>
+      </li>
+      <!-- <li nz-menu-item nzMatchRouter>nav 2</li>
+      <li nz-menu-item nzMatchRouter>nav 3</li> -->
+    </ul>
+  </nz-header>
+  <nz-content class="t101-content">
+    <div class="inner-content">
+      <router-outlet></router-outlet>
+    </div>
+  </nz-content>
+</nz-layout>

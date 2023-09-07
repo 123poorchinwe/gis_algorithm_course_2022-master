@@ -1,0 +1,23 @@
+#t102-draw-canvas-container {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  // display: block;
+}
+
+#t102-draw-canvas-datgui {
+  position: absolute;
+  margin-top: 5px;
+  right: -10px;
+}
+
+#t102-draw-canvas {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  // display: block;
+}

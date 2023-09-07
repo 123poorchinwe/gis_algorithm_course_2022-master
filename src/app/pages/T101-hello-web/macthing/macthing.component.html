@@ -1,0 +1,29 @@
+<p>
+  <nz-select nzShowSearch nzAllowClear [nzSize]="'default'" nzPlaceHolder="选择实体" [(ngModel)]="selectedKey">
+    <nz-option *ngFor="let item of keys" [nzLabel]="item" [nzValue]="item">{{item}}</nz-option>
+  </nz-select>
+  是
+  <nz-select nzShowSearch nzAllowClear [nzSize]="'default'" nzPlaceHolder="选择类别" [(ngModel)]="selectedValue">
+    <nz-option *ngFor="let item of values" [nzLabel]="item" [nzValue]="item">{{item}}</nz-option>
+  </nz-select>
+
+  <button nz-button [nzSize]="'default'" nzType="primary" (click)="addAnswer()">确认并添加</button>
+  <button nz-button [nzSize]="'default'" nzType="dashed" (click)="refresh()">刷新</button>
+</p>
+<nz-list nzBordered [ngStyle]="{'visibility':answerVisible?'visible':'hidden'}">
+  <nz-list-item *ngFor="let item of answers">
+    <!-- <span nz-typography> -->
+    <div>
+      <div>
+        <span nz-typography><mark> {{ item.entity + ' 是 ' + item.category + '。'}}</mark></span>
+      </div>
+      <div>
+        <button nz-button nzType="primary" nzDanger={{!item.remark}}>{{item.remark?'正确':'错误'}}</button>
+      </div>
+    </div>
+    <!-- </span> -->
+    <ul nz-list-item-actions>
+      <nz-list-item-action><a (click)="deleteAnswer(item)">删除</a></nz-list-item-action>
+    </ul>
+  </nz-list-item>
+</nz-list>

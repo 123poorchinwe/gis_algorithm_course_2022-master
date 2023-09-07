@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "row": 38934,
+                "column": 54390,
+                "deep": 16,
+                "value": 19
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38934,
+                "column": 54391,
+                "deep": 16,
+                "value": 19
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38935,
+                "column": 54390,
+                "deep": 16,
+                "value": 19
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "row": 38935,
+                "column": 54391,
+                "deep": 16,
+                "value": 19
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "type": "FeatureCollection",
+    "name": "arc_8",
+    "features": [{
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.86486217, 31.82180841], [118.79778675, 31.82188661], [118.79778675, 31.86509763]]]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.79778675, 31.86509763], [118.86657481, 31.87442511]]]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.86657481, 31.87442511], [118.90293298, 31.89269937], [118.9610627, 31.87632868]]]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.86657481, 31.87442511], [118.88104193, 31.91675965]]]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.86657481, 31.87442511], [118.87571194, 31.85424728], [118.90121976, 31.84206444], [118.86486217, 31.82180841]]]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.79778675, 31.86509763], [118.79778675, 31.91675965], [118.88104193, 31.91675965]]]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.88104193, 31.91675965], [118.9610627, 31.91675965], [118.9610627, 31.87632868]]]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [[[118.9610627, 31.87632868], [118.9610627, 31.82169626], [118.86486217, 31.82180841]]]
+            }
+        }
+    ]
+}

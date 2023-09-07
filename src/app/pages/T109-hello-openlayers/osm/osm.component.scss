@@ -1,0 +1,19 @@
+#t109-osm-ol-container {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  // display: block;
+}
+
+#t109-osm-ol-map {
+  z-index: 10;
+  // position: absolute;
+  // margin: 0;
+  // border: 0;
+  // padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}

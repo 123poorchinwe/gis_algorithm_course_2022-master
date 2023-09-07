@@ -1,0 +1,43 @@
+.t217-layout {
+  height: 100%;
+}
+
+.t217-header {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+
+.t217-header .logo {
+  width: 300px;
+  height: 64px;
+  float: left;
+}
+
+.t217-header h1 {
+  margin-left: 15px;
+}
+
+.t217-header .buttons-list {
+  height: 64px;
+}
+
+.t217-header .buttons-list button {
+  margin-left: 5px;
+}
+
+.t217-content {
+  padding: 0px;
+  margin: 0px;
+}
+
+.t217-content .inner-content {
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  height: 100%;
+}
